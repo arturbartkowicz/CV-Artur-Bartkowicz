@@ -12,29 +12,19 @@ html {
 
 * {
     font-family: 'Noto Serif JP', serif;
+    color: white;
 }
 
 
 body {
-    background-image:
-      /* linear-gradient(black, black), */
-      url(img/Blue-Wallpaper-42-2560x1600.jpg);
+    background-image:url(img/Blue-Wallpaper-42-2560x1600.jpg);
     background-size: cover;
     background-blend-mode: lighten;
-  }
-
-  .name {
-      color: white;
-  }
-
-  .name-description {
-      color: white;
   }
 
   .logo-picture-me {
     width: 200px;
     height: 200px;
-    /* background-image: url('http://strawberry-fest.org/wp-content/uploads/2012/01/Coca-Cola-logo.jpg'); */
     background-size: cover;
     display: block;
     border-radius: 100px;
@@ -43,6 +33,18 @@ body {
   }
 
   .logo-picture-me:hover {
-      transform: rotate(5deg) scale(1.05);
-      
+      transform: rotate(5deg) scale(1.05); 
+  }
+
+  .main-header {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .name {
+      margin: 80px;
+  }
+
+  .logo-picture{
+      margin: 80px;
   }
