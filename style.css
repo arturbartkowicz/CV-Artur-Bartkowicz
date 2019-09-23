@@ -81,3 +81,17 @@ body {
   .location-job-icon:hover{
       transform: scale(1.2);
   }
+  
+  .github{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .github-icon:hover{
+      transform: scale(1.2);
+  }
+
+  .github-text:hover{
+    transform: scale(1.05);
+}
