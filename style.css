@@ -66,7 +66,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
 
   .body-content{
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
   }
 
   .location-job{
@@ -95,4 +95,11 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
 
   .github-text:hover{
     transform: scale(1.05);
+}
+
+.content-box{
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
 }
