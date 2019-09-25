@@ -134,3 +134,15 @@ body {
 .inline-box .content-box {
     flex-grow: 1;
 }
+
+@media (max-width: 600px) {
+   .main-header{
+       flex-flow: column;
+       justify-content: center;   
+   }
+
+   .body-content{
+    flex-flow: column;
+    justify-content: center;
+   }
+}
