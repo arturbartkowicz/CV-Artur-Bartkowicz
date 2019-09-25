@@ -130,6 +130,7 @@ body {
     flex-flow: row;
 }
  
+
 .inline-box .content-box {
     flex-grow: 1;
 }
